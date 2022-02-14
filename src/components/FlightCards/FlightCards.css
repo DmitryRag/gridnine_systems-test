@@ -1,0 +1,21 @@
+.flightcards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 700px;
+}
+
+.flightcards__list {
+    margin: 0;
+    padding: 0;
+}
+
+.flightcards__button {
+    width: 30%;
+    padding: 15px;
+    color: #f7fbf3;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}

@@ -1,0 +1,102 @@
+.flightcard {
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.flightcard__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    background-color: #1177cf;
+}
+
+.flightcard__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.flightcard__airline-logo {
+    margin: 0;
+    font-size: 20px;
+}
+
+.flightcard__price-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.flightcard__price {
+    margin: 0;
+    font-size: 23px;
+}
+
+.flightcard__price-description {
+    margin: 0;
+    font-size: 13px
+}
+
+.flightcard__segments {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 0;
+}
+
+.flightcard__segments_last {
+    border-top: 1px solid #1177cf;
+}
+
+.flightcard__segments_arrow {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.flightcard__dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.flightcard__date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flightcard__date_time {
+    margin: 0 10px 0 0;
+    font-size: 22px;
+}
+
+.flightcard__date_date {
+    margin: 0;
+    font-size: 19px;
+    color: blue;
+}
+
+.flightcard__date_duration {
+    margin: 0;
+    align-self: center;
+}
+
+.flightcard__transfer {
+    margin: 0 auto;
+}
+
+.flightcard__airline {
+    margin: 10px 0 10px 0;
+}
+
+.flightcard__button {
+    width: 100%;
+    padding: 15px;
+    color: #f7fbf3;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}

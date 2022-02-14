@@ -1,0 +1,19 @@
+.pricefilter__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricefilter__title {
+    margin: 50px 0 25px 0;
+    font-size: 25px;
+}
+
+.pricefilter__label {
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.pricefilter__input {
+    margin-left: 5px;
+}
